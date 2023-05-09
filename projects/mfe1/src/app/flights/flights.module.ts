@@ -5,12 +5,7 @@ import { RouterModule } from '@angular/router';
 import { FLIGHTS_ROUTES } from './flights.routes';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    RouterModule.forChild(FLIGHTS_ROUTES)
-  ],
-  declarations: [
-    FlightsSearchComponent
-  ]
+  imports: [CommonModule, RouterModule.forChild(FLIGHTS_ROUTES)],
+  declarations: [FlightsSearchComponent],
 })
-export class FlightsModule { }
+export class FlightsModule {}
