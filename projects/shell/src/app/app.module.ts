@@ -7,16 +7,9 @@ import { APP_ROUTES } from './app.routes';
 import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
-  imports: [
-    BrowserModule,
-    RouterModule.forRoot(APP_ROUTES)
-  ],
-  declarations: [
-    AppComponent,
-    HomeComponent,
-    NotFoundComponent
-  ],
+  imports: [BrowserModule, RouterModule.forRoot(APP_ROUTES)],
+  declarations: [AppComponent, HomeComponent, NotFoundComponent],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

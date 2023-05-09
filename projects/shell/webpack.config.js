@@ -1,8 +1,4 @@
-const {
-  shareAll,
-  withModuleFederationPlugin,
-  share,
-} = require("@angular-architects/module-federation/webpack");
+const { shareAll, withModuleFederationPlugin, share } = require('@angular-architects/module-federation/webpack');
 
 module.exports = withModuleFederationPlugin({
   // Explicitly defined mfe route
@@ -17,28 +13,28 @@ module.exports = withModuleFederationPlugin({
 
   // Share each dependency explicitly
   shared: share({
-    "@angular/core": {
+    '@angular/core': {
       singleton: true,
       strictVersion: true,
-      requiredVersion: "auto",
+      requiredVersion: 'auto',
     },
-    "@angular/common": {
+    '@angular/common': {
       singleton: true,
       strictVersion: true,
-      requiredVersion: "auto",
+      requiredVersion: 'auto',
     },
-    "@angular/common/http": {
+    '@angular/common/http': {
       singleton: true,
       strictVersion: true,
-      requiredVersion: "auto",
+      requiredVersion: 'auto',
     },
-    "@angular/router": {
+    '@angular/router': {
       singleton: true,
       strictVersion: true,
-      requiredVersion: "auto",
+      requiredVersion: 'auto',
     },
   }),
 
   // Explicitly share mono-repo libs:
-  sharedMappings: ["auth-lib"],
+  sharedMappings: ['auth-lib'],
 });

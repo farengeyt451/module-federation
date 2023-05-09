@@ -22,13 +22,8 @@
             "main": "projects/shell/src/main.ts",
             "polyfills": "projects/shell/src/polyfills.ts",
             "tsConfig": "projects/shell/tsconfig.app.json",
-            "assets": [
-              "projects/shell/src/favicon.ico",
-              "projects/shell/src/assets"
-            ],
-            "styles": [
-              "projects/shell/src/styles.css"
-            ],
+            "assets": ["projects/shell/src/favicon.ico", "projects/shell/src/assets"],
+            "styles": ["projects/shell/src/styles.css"],
             "scripts": [],
             "extraWebpackConfig": "projects/shell/webpack.config.js",
             "commonChunk": false
@@ -99,13 +94,8 @@
             "polyfills": "projects/shell/src/polyfills.ts",
             "tsConfig": "projects/shell/tsconfig.spec.json",
             "karmaConfig": "projects/shell/karma.conf.js",
-            "assets": [
-              "projects/shell/src/favicon.ico",
-              "projects/shell/src/assets"
-            ],
-            "styles": [
-              "projects/shell/src/styles.css"
-            ],
+            "assets": ["projects/shell/src/favicon.ico", "projects/shell/src/assets"],
+            "styles": ["projects/shell/src/styles.css"],
             "scripts": []
           }
         }
@@ -130,13 +120,8 @@
             "main": "projects/mfe1/src/main.ts",
             "polyfills": "projects/mfe1/src/polyfills.ts",
             "tsConfig": "projects/mfe1/tsconfig.app.json",
-            "assets": [
-              "projects/mfe1/src/favicon.ico",
-              "projects/mfe1/src/assets"
-            ],
-            "styles": [
-              "projects/mfe1/src/styles.css"
-            ],
+            "assets": ["projects/mfe1/src/favicon.ico", "projects/mfe1/src/assets"],
+            "styles": ["projects/mfe1/src/styles.css"],
             "scripts": [],
             "extraWebpackConfig": "projects/mfe1/webpack.config.js",
             "commonChunk": false
@@ -207,13 +192,8 @@
             "polyfills": "projects/mfe1/src/polyfills.ts",
             "tsConfig": "projects/mfe1/tsconfig.spec.json",
             "karmaConfig": "projects/mfe1/karma.conf.js",
-            "assets": [
-              "projects/mfe1/src/favicon.ico",
-              "projects/mfe1/src/assets"
-            ],
-            "styles": [
-              "projects/mfe1/src/styles.css"
-            ],
+            "assets": ["projects/mfe1/src/favicon.ico", "projects/mfe1/src/assets"],
+            "styles": ["projects/mfe1/src/styles.css"],
             "scripts": []
           }
         }
@@ -273,13 +253,8 @@
             "polyfills": "projects/mfe2/src/polyfills.ts",
             "tsConfig": "projects/mfe2/tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "assets": [
-              "projects/mfe2/src/favicon.ico",
-              "projects/mfe2/src/assets"
-            ],
-            "styles": [
-              "projects/mfe2/src/styles.scss"
-            ],
+            "assets": ["projects/mfe2/src/favicon.ico", "projects/mfe2/src/assets"],
+            "styles": ["projects/mfe2/src/styles.scss"],
             "scripts": [],
             "extraWebpackConfig": "projects/mfe2/webpack.config.js",
             "commonChunk": false
@@ -351,13 +326,8 @@
             "tsConfig": "projects/mfe2/tsconfig.spec.json",
             "karmaConfig": "projects/mfe2/karma.conf.js",
             "inlineStyleLanguage": "scss",
-            "assets": [
-              "projects/mfe2/src/favicon.ico",
-              "projects/mfe2/src/assets"
-            ],
-            "styles": [
-              "projects/mfe2/src/styles.scss"
-            ],
+            "assets": ["projects/mfe2/src/favicon.ico", "projects/mfe2/src/assets"],
+            "styles": ["projects/mfe2/src/styles.scss"],
             "scripts": []
           }
         }

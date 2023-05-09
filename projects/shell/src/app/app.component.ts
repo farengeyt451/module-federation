@@ -3,7 +3,7 @@ import { AuthLibService } from 'auth-lib';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html'
+  templateUrl: './app.component.html',
 })
 export class AppComponent {
   title = 'shell';
